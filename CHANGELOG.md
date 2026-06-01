@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased
+
+* Replace all deprecated `include` directives with `include_tasks` (Ansible 2.4+ compatible).
+
+
+| PR | Author | Title |
+| --- | --- | --- |
+| - | - | Migrate `include` to `include_tasks` across all task files |
+
+
 ## 7.17.0
 
 * 7.17.0 as default version.
@@ -7,7 +17,7 @@
 
 | PR | Author | Title |
 | --- | --- | --- |
-| [#845](https://github.com/elastic/ansible-elasticsearch/pull/845) | [@jmlrt](https://github.com/jmlrt) | Remove CentOS 8 tests  |
+| [#845](https://github.com/elastic/ansible-elasticsearch/pull/845) | [@jmlrt](https://github.com/jmlrt) | Remove CentOS 8 tests   |
 
 
 ## 7.16.3
